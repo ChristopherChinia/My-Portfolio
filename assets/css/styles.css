@@ -46,8 +46,33 @@
 /* styling for Home section start */
 .home{
     display: flex;
-    background: url(../images/1.jpg)no-repeat center;
+    background: url(../images/1.jpg)no-repeat right;
+    background-size: 100vh;
+    background-color: black;
     height: 100vh;
     color: white;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home .navigation{
+    margin: auto 0 auto 40px;
+}
+.home .content .textOne{
+    font-size: 27px;
+    color: crimson;
+}
+.home .content .textTwo{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: crimson;
+}
+.home .content .textThree{
+    font-size: 40px;
+    margin: 5px 0;
+    color: crimson;
+}
+.home .content .textThree span{
+    color: crimson;
+    font-weight: 500;
 }
 
