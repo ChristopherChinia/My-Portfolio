@@ -5,4 +5,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/* styling for navBar */
+.navBar{
+    background-color: crimson;
+    width: 100%;
+    position: fixed;
+}
+.navBar .menu li a {
+    
+}
 
