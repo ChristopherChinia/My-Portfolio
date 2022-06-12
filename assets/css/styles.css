@@ -12,9 +12,9 @@
 }
 /* styling for navBar */
 .navBar{
-    background-color: crimson;
+    /* background-color: crimson; */
     width: 100%;
-    padding: 15px 0;
+    padding: 30px 0;
     position: fixed;
     font-family: 'Ubuntu',sans-serif;
 }
@@ -31,16 +31,24 @@
     font-weight: 600;
 }
 
+.navBar .logo a span{
+    color: crimson;
+}
+
 .navBar .menu li{
     list-style: none;
     display: inline-block;
 }
 
 .navBar .menu li a {
-    color: white;
+    color:black;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navBar .menu li a:hover{
+    color: crimson;
 }
 
 /* styling for Home section start */
