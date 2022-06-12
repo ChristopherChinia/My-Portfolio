@@ -9,9 +9,9 @@ My personal portfolio is a website that allows any user to know more about me, m
 
 ## SCREENSHOTS
 - link 1
-Screenshot from 2022-06-12 15-37-10.png
+[image](./assets/images/Screenshot%20from%202022-06-12%2015-37-10.png)
 - link 2
-Screenshot from 2022-06-12 15-37-22.png
+[image](./assets/images/Screenshot%20from%202022-06-12%2015-37-22.png)
 
 ********
 ## SetUp Instruction
@@ -24,7 +24,7 @@ You can use the repository link to fork it then run it in Visual Studio and then
 
 
 ### Getting Files
-* Fork the repo
+* Fork the repo :https://github.com/ChristopherChinia/My-Portfolio.git
 - Create a new branch in your terminal (git checkout -b improve-feature)
 - Install the prerequisites
 - Make appropriate changes in file(s)
