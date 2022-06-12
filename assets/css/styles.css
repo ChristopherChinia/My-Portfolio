@@ -96,7 +96,7 @@
   font-weight: 500;
 }
 
-/* responsive media query star */
+/* responsive media query start */
 @media (max-width:947px) {
     .navigation {
         padding: 0 50px;
