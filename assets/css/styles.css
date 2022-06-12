@@ -43,3 +43,11 @@
     margin-left: 25px;
 }
 
+/* styling for Home section start */
+.home{
+    display: flex;
+    background: url()no-repeat center;
+    height: 100vh;
+    color: white;
+}
+
