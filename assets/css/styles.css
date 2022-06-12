@@ -422,6 +422,8 @@ html{
   background: none;
 }
 
+
+
 /* responsive media query start */
 @media (max-width:947px) {
     .navigation {
