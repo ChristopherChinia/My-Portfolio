@@ -96,13 +96,16 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: crimson;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
     color: crimson;
     transition: all 0.3s ease;
+}
+.navbar.sticky .logo a{
+    color: #fff;
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -113,17 +116,20 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: crimson;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #fff;
+}
+.navbar.sticky .menu li a{
+    color: #fff;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: black;
 }
 
 /* menu btn styling */
@@ -165,9 +171,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("../images/1.jpg") no-repeat right;
     height: 100vh;
-    color: #fff;
+    color: crimson;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
