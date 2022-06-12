@@ -42,7 +42,7 @@ To install all requirements
 Then run server with the above command
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
+Or you can access the web application directly via this [LINK.](https://christopherchinia.github.io/My-Portfolio/)
 *****
 ## Dependencies
 - Package Name
